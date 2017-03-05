@@ -23,7 +23,7 @@
 }
 
 .logo-img:hover {
-	background-color: #87CEEB;
+	background-color: #4682B4;
 }
 
 .logo-text {
@@ -133,7 +133,7 @@ hr {
 .subscribe-button:hover {
 	/*    cursor: pointer;*/
 	color: #000000;
-	background-color: red;
+	background-color: #4682B4;
 }
 
 .feature {
