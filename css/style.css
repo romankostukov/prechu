@@ -9,6 +9,10 @@
 	float: left;
 }
 
+.nav-toggle {
+	display: none;
+}
+
 .logo-img {
     vertical-align: middle;
     display: inline-block;
