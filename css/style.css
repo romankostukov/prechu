@@ -73,7 +73,9 @@
 	padding-top: 36px;
 	padding-left: 38px;
 }
-
+.slide-img img {
+	max-width: 352px;
+}
 .bottom	{
 	background: url(../images/bottom.png);
 	position: absolute;
@@ -210,7 +212,7 @@ hr {
 	margin-bottom: 35px;
 }
 
-@media screen and (max-width: 768px){
+/*@media screen and (max-width: 768px){
 
 	.nav{
 		display: none;
@@ -235,14 +237,5 @@ hr {
 	    height: 4px;
 	    background-color: #fff;
 	}
-	.slide-img {
-		float: left;
-		width: 40%;
-		padding: 0;
-	}
-
-	.slide-input {
-		float: right;
-		width: 40%;
-	}
-}
+	
+}*/
