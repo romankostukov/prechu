@@ -9,27 +9,6 @@
 	float: left;
 }
 
-.nav-toggle {
-	display: none;
-	margin: 27px;
-	border-radius: 3px;
-	float: right;
-	width: 58px;
-	height: 44px;
-	background-color: #5094f2;
-
-}
-
-.ico-bar {
-	border-radius: 2px;
-	margin-top: 8px;
-	display: block;
-    width: 38px;
-    height: 4px;
-    background-color: #fff;
-
-
-}
 
 .logo-img {
     vertical-align: middle;
@@ -229,4 +208,41 @@ hr {
 	font-size: 30px;
 	color: #9f9f9f;
 	margin-bottom: 35px;
+}
+
+@media screen and (max-width: 768px){
+
+	.nav{
+		display: none;
+	}
+
+
+	.nav-toggle {
+		margin: 27px;
+		border-radius: 3px;
+		float: right;
+		width: 58px;
+		height: 44px;
+		background-color: #5094f2;
+
+	}
+
+	.ico-bar {
+		border-radius: 2px;
+		margin-top: 8px;
+		display: block;
+	    width: 38px;
+	    height: 4px;
+	    background-color: #fff;
+	}
+	.slide-img {
+		float: left;
+		width: 40%;
+		padding: 0;
+	}
+
+	.slide-input {
+		float: right;
+		width: 40%;
+	}
 }
