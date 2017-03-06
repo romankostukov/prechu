@@ -1,7 +1,6 @@
 
 .header {
 	height: 89px;
-	max-width: 1980px;
 }
 
 .logo {
@@ -86,8 +85,8 @@
 
 .slide-input {
 	color: #ffffff;
-	margin-top: 151px;
-	margin-right: 107px;
+	margin-top: 111px;
+	margin-right: 92px;
 	float: right;
 	padding-top: 36px;
 }
@@ -97,7 +96,7 @@
 	font-weight: 100;
 	font-stretch: normal;
 	font-style: normal;
-	margin-bottom: 21px;
+	margin-bottom: 13px;
 
 }
 .slide-input p{
@@ -121,15 +120,16 @@ hr {
 }
 
 .subscribe-button {
-	margin-top: 20px;
-	padding-top: 14px;
-	padding-bottom: 16px;
+	margin-left: 12px;
+	margin-top: 35px;
+	padding-top: 9px;
+	padding-bottom: 9px;
 	padding-left: 48px;
 	padding-right: 16px;
 	border:none;
 	font-size: 20px;
 	background: url(../images/Shape-2.png) no-repeat #5094f2;
-	background-position: 10px 14px;
+	background-position: 12px 9px;
 	color: #ffffff;
 }
 
@@ -212,8 +212,7 @@ hr {
 	margin-bottom: 35px;
 }
 
-/*@media screen and (max-width: 768px){
-
+@media screen and (max-width: 768px){
 	.nav{
 		display: none;
 	}
@@ -237,5 +236,71 @@ hr {
 	    height: 4px;
 	    background-color: #fff;
 	}
-	
-}*/
+	.feuture {
+		float: left;
+		width: 100%;
+	}
+
+	.feature-img {
+		padding-left: 5px;
+		width: 146px;
+		height: 146px;
+	}
+
+	.slide-img {
+    width: 178px;
+    float: left;
+    padding-top: 23px;
+    }
+
+    .slide-img img {
+    max-width: 178px;
+    padding-left: 13px;
+}
+	.slide-input p {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-top: 16px;
+}
+
+	.slide-input h2 {
+	 font-size: 24px;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	margin-bottom: 21px;
+}
+	.slide-input {
+    color: #ffffff;
+    margin-top: 0;
+    margin-right: 0;
+    float: right;
+    padding-top: 30px
+}
+	.slide {
+    position: relative;
+    height: 246px;
+    background: url(../images/bg.jpg) no-repeat;
+}
+.bottom {
+	display: none;
+}
+ 
+.subscribe-button {
+	margin-left: 0;
+	margin-top: 35px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	padding-left: 48px;
+	padding-right: 16px;
+	border:none;
+	font-size: 20px;
+	background: url(../images/Shape-2.png) no-repeat #5094f2;
+	background-position: 12px 9px;
+	color: #ffffff;
+}
+
+
+
+
+}
